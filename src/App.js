@@ -37,8 +37,8 @@ class App extends Component {
         <Header />
         <br />
         <form ref="formulir" className="form-inline">
-          <input type="text" className="form-control" size="8" ref="jam" placeholder="jam aktivitas" />
-          <input type="text" className="form-control" size="30" ref="aktivitas" placeholder="jenis aktivitas" />
+          <input type="text" className="form-control" size="8" ref="jam" placeholder="Hour" />
+          <input type="text" className="form-control" size="30" ref="aktivitas" placeholder="My Activity" />
           <button onClick={this.addTodo} className="btn btn-info">simpan</button>
         </form>
         <hr />
